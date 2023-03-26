@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Cards from "./components/Cards";
 import AddMovie from "./components/AddMovie";
+import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 import Detail from "./components/Detail";
 import { createContext } from "react";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
+        <Footer />
       </div>
     </Appstate.Provider>
   );
