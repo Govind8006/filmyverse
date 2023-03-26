@@ -17,6 +17,22 @@ body {
     height: 47vh;
   width: 35vh;
 }
+
+
+
 .name{
     inline-size: min-content;
 }
+
+@media only screen and (max-width: 600px) {
+    .small {
+     padding: 8px;
+     width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .cards {
+        height: 47vh;
+        width: 40vh;
+    }
+  }
