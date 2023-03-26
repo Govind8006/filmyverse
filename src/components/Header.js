@@ -12,7 +12,7 @@ const Header = () => {
     <div className="sticky header z-10 top-0 text-3xl flex justify-between items-center text-red-500 font-bold p-3 border-b-2 border-gray-500">
       <Link to={"/"}>
         <span>
-          Filmy<span className="text-white">Verse</span>
+          Review<span className="text-white">Dekho</span>
         </span>
       </Link>
       {useAppstate.login ? (
