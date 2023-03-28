@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class=" text-center">
+      <footer class="footer text-center">
         <div class=" flex justify-center">
           <a
             href="https://www.instagram.com/_garg_govind/"
