@@ -13,7 +13,7 @@ body {
 .header{
     background-color: rgb(20, 19, 19);
 }
-.cards{
+.image{
     height: 47vh;
   width: 35vh;
 }
@@ -26,12 +26,18 @@ body {
 @media only screen and (max-width: 600px) {
     .small {
      padding: 8px;
-     width: 100%;
+     
     }
   }
   @media only screen and (max-width: 600px) {
-    .cards {
-        height: 47vh;
-        width: 40vh;
+    .image {
+        height: 27vh;
+        width: 18vh;
+    }
+    .card{
+             width : 19vh;
+    }
+    .text{
+        font-size: small;
     }
   }
