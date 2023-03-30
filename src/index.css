@@ -23,19 +23,21 @@ body {
     inline-size: min-content;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .small {
-     padding: 4px;
-     
+    
+     padding: 1px;
     }
-  } */
+  }
   @media only screen and (max-width: 600px) {
     .image {
-        height: 30vh;
-        width: 23vh;
+        height: 28vh;
+        width: 19vh;
+      
     }
     .card{
-             width : 25vh ;
+             width : 20vh ;
+             
     }
     .text{
         font-size: small;
