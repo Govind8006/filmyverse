@@ -25,17 +25,17 @@ body {
 
 /* @media only screen and (max-width: 600px) {
     .small {
-     padding: 8px;
+     padding: 4px;
      
     }
   } */
   @media only screen and (max-width: 600px) {
     .image {
-        height: 27vh;
-        width: 19vh;
+        height: 30vh;
+        width: 23vh;
     }
     .card{
-             width : 20vh ;
+             width : 25vh ;
     }
     .text{
         font-size: small;
